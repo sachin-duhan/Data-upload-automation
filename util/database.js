@@ -6,7 +6,7 @@ let _db;
 
 const mongoConnect = () => {
     MongoClient.connect(
-            "mongodb+srv://itskumaravinder:ravinder@cluster0-cibl6.mongodb.net/cardetails?retryWrites=true&w=majority"
+            "YOU MONGO URI OR LOCALHOST MONGODB URI"
         )
         .then(client => {
             console.log("connected");
